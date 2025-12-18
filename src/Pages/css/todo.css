@@ -1,0 +1,29 @@
+.todoList {
+    margin: auto;
+    display: flex;
+    flex-direction: column;  
+    height: 100vh;
+    background-image: linear-gradient(beige, burlywood);
+    justify-content: flex-start; 
+    align-items: center;       
+    padding-top: 60px;          
+}
+
+.todoList h1 {
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 40px;      
+}
+
+.box {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.but {
+    width: 120px;
+}
